@@ -1,5 +1,5 @@
 # Song-Management-System
-First Data Structures assignment using Linked Lists in C
+First Data Structures assignment using Linked Lists in C. Below is provided documentation that was followed when building the system.
 
 -- --
 This assignment aims to help you practice linked list data structure and basic linked list operations. Your main task in this assignment is to write a C program to create a simple application that will allow you manage your songs. This application will mainly keep your songs in a simple text file but when loaded to your application, your application will keep your songs in an internal Linked List. For each song, your application will store the following details: a unique identification number for each song which can be maximum of 4 digit integer, the name of the song (max 50 characters), the song genre (max 50 characters), the album name of this song (max 50 characters) and the artist name that sings this song (max 50 characters), the year that this song was released and the date-time (Format: DD/MM/YYYY HH:MM) that you added this song to your song list.
@@ -50,22 +50,6 @@ printSongs | To show the details of the songs you manage. | A list of songs you 
 searchSongs | To search for a song by using song name, artist name or genre. More than one song can be listed based on search keys. | A list of songs you manage | -
 createPlaylist | To create a playlist with the song details provided. | A list of songs you manage, a list of song names to create the playlist and playlistID. | -
 Overwrite | To overwrite the external files with the latest versions of the list. | A list of songs you manage. | -
-
-**Grading**
-
-**Grading Point** | **Mark(out of 100)**
-------------------|---------------------
-Structures  to represent  a list of songs and  date-time | 5
-Main function to control and coordinate commands | 15
-initialiseSongs | 10
-addSong | 10
-deleteSong | 5
-printSongs | 5
-searchSongs | 20
-createPlaylist | 15
-Overwrite | 15
-
-**Note:** Remember to have good programming style (Appropriate comments, variable names, formulation of selection statements and loops, reusability, extensibility etc.). Each of the items above will include10% for good programming style.
 
 **Sample Run** 
 
